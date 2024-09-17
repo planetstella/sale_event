@@ -1,0 +1,30 @@
+  <a href="%url%" class="%col% %width%" target="_blank">
+  <div class="img_box"><img class="img" src="%imgsrc%" alt=""></div>
+                <div class="text_box">
+                    <div class="name">
+                        %name%
+                    </div>
+                    <div class="line"></div>
+                    <div class="intro">
+                        %intro%
+                    </div>
+                    <div class="price">
+                        %price%
+                        <span>円(税込)</span>
+                    </div>
+                </div>
+
+              <!-- off x 倍 -->
+            <span class="off %none_off%">
+                <p>%off%<span>%</span></p>
+            </span>
+
+                <!-- point x 倍 -->
+                <span class="point %point%">
+                </span>
+                <!-- 送料無料 -->
+                <span class="soryo %soryo%">
+                    <span>送料</span>
+                <span>無料</span>
+                </span>
+            </a>
